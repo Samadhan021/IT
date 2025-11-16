@@ -1,0 +1,23 @@
+name: it_department_crm
+description: Local-only IT Department CRM (Helpdesk + Assets + Inventory)
+version: 1.0.0+1
+publish_to: 'none'
+
+environment:
+  sdk: '>=2.18.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.2.8
+  path_provider: ^2.0.13
+  path: ^1.8.4
+  file_picker: ^5.2.7
+  intl: ^0.18.1
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
